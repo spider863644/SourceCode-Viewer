@@ -1,5 +1,5 @@
 try:
-    import requests
+    import requests, os
 except ModuleNotFound:
     print(red + "module \"requests\" not found\nrequests will be installed automatically" + white)
     t.sleep(4)
